@@ -1,8 +1,8 @@
 
 import './App.css';
 import AppCommonButton from './shared/components/AppCommonButton';
-import Panel from './shared/components/Panel';
 import RenderHOC from './shared/components/RenderHOC';
+import Panel from './shared/components/panel';
 
 function App() {
   let abc
