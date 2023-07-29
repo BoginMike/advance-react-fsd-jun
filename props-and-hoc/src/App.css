@@ -1,0 +1,9 @@
+.app-button{
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: bold;
+  height: 2rem;
+  display: inline-block;
+  background: linear-gradient(to right top,red,purple);
+}
