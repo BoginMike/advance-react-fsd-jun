@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const AppCommonButton = ({ label }) => {
+const AppCommonButton = ({ label, children }) => {
     return (
-        <div className='app-button'>{label}</div>
+        <div className='app-button'>{children}</div>
     )
 }
 

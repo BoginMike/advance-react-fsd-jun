@@ -7,3 +7,9 @@
   display: inline-block;
   background: linear-gradient(to right top,red,purple);
 }
+
+.panel-container{
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 5px;
+}
