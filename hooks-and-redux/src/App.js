@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import Counter from './Counter';
 import FunctionalCounter from './FunctionalCounter';
+import Clock from './Clock';
 
 function App() {
   const [flag, setFlag] = useState(true)
@@ -15,7 +16,7 @@ function App() {
       <hr />
 
       {
-        flag == true ? <FunctionalCounter /> : <></>
+        flag == true ? <Clock /> : <></>
       }
 
     </div>
